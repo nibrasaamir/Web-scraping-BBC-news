@@ -1,0 +1,6 @@
+This code scrapes articles from the BBC website based on specified keywords using the requests and BeautifulSoup libraries. 
+It employs functions to search for articles, extract their URLs, and scrape content such as title, URL, date, paragraphs, and images. 
+The data is then saved to a CSV file. 
+Notably, the code lacks IP rotation, a common technique to prevent IP blocking during web scraping. 
+Implementing IP rotation involves using a pool of diverse IP addresses for requests, but this was not incorporated due to the challenge of finding reliable and valid IPs. 
+While the code successfully extracts and organizes information, considerations for IP rotation are crucial for ethical and uninterrupted web scraping practices.
